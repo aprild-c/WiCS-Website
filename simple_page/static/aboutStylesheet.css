@@ -1,0 +1,77 @@
+body {
+    color: black;
+    background-repeat: repeat-x;
+    background-size: 65vw 140vh;
+}
+td {
+    padding: 2.5% 8% 2.5% 8%;
+}
+h1, h2 {
+    font-weight: normal;
+}
+h1 {
+    font-size: 2.5vw;
+}
+h2 {
+    font-size: 1.65vw;
+    line-height: 120%;
+}
+h2 a {
+    text-decoration: none;
+}
+#moreInfo {
+    font-size: 1.25vw;
+    text-decoration: underline;
+}
+.header {
+    width: 33%;
+    border-top-right-radius: 3vw;
+    border-top-left-radius: 3vw;
+    border-style: dashed;
+    border-width: 4px;
+}
+#missionRow {
+    padding: 7% 8%;
+}
+#missionRow h1, #missionRow h2 {
+    font-family: "Courier New";
+    color: rgb(255,0,180);
+    text-align: center;
+}
+#missionRow h1 {
+    font-size: 4vw;
+}
+
+#problemHeader {
+    border-color: mediumturquoise;
+    border-bottom-color: transparent;
+}
+#WWDHeader {
+    border-color: darkorange;
+    border-bottom-color: mediumturquoise;
+}
+#contactHeader {
+    border-color: mediumpurple;
+    border-bottom-color: mediumturquoise;
+}
+#supportingText {
+    border-bottom-right-radius: 3vw;
+    border-bottom-left-radius: 3vw;
+    border: mediumturquoise dashed 4px;
+    border-top: none;
+}
+.symbol {
+    color: rgb(255,0,180);
+}
+.tag {
+    color: darkorange;
+}
+th a {
+    text-decoration: none;
+    color: #3f1f69;
+    text-shadow: 3px 2px 0 rgba(255,0,180,0.5);
+}
+#typingSymbol {
+    font-size: 6vw;
+    color: lightgray;
+}

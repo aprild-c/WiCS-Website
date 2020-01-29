@@ -1,0 +1,145 @@
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+    z-index: 99;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+    padding-top: 60px;
+}
+#welcome {
+    background-image: url("../static/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#welcome h1, #welcome h3 {
+    text-align: left;
+    color: black;
+    background-color: rgba(255,255,255,0.5);
+    padding-left: 1vw;
+    line-height: 130%;
+}
+
+#welcome h1 {
+    font-size: 11.3vw;
+    margin: 15vh 3vw 0 3vw;
+}
+
+#welcome h3 {
+    font-size: 5vw;
+    margin: 0 3vw;
+}
+
+#welcome p {
+    text-align: right;
+    font-size: 15vh;
+    position: absolute;
+    line-height: 0;
+    right: 10vw;
+    top: 80%;
+    padding-bottom: 0;
+    color: mediumturquoise;
+    text-shadow: 6px 8px 0 rgba(255,0,180,0.5);
+}
+
+#information {
+    z-index: -1;
+    position: relative;
+    top: 100vh;
+    left: 0;
+    width: 100%;
+}
+
+#aboutBox, #eventBox{
+    padding: 10%;
+    width: 50%;
+}
+
+#information h1 {
+    font-size: 2.3vw;
+    line-height: 100%;
+}
+
+#information h2 {
+    font-size: 1.65vw;
+    line-height: 120%;
+}
+
+#information h3 {
+    font-size: 1.25vw;
+    line-height: 90%;
+}
+
+#information a:hover {
+    color: mediumturquoise;
+}
+
+#information a {
+    color: #3f1f69;
+}
+
+#aboutBox {
+    border-right: #dddddd dotted 0.2vw;
+}
+
+#aboutBox h1, #eventBox h1 {
+    color: #3f1f69;
+    text-shadow: 3px 2px 0 rgba(255,0,180,0.5);
+}
+#newsletter {
+    background-color: mediumturquoise;
+    padding: 0% 30%;
+}
+
+td #newsletter {
+    padding: 0 0 0 0;
+}
+#mc_embed_signup h1{
+    text-align: center;
+    line-height: 130%;
+}
+
+#mc_embed_signup input {
+    font-size: 1.5vw;
+    width: 30%;
+}
+#mc_embed_signup .mc-field-group {
+    min-height: 10px;
+}
+#mc_embed_signup .mc-field-group.input-group ul li, #mc_embed_signup .mc-field-group.input-group ul, #mc_embed_signup .mc-field-group input {
+    padding: 0;
+}
+#mc_embed_signup .mc-field-group {
+    padding: 0 0 0.5vw 0 ;
+}
+#mc_embed_signup .button {
+    font-size: 1.3vw;
+    line-height: 2vw;
+    height: 100%;
+    padding: 0 1vw;
+}
+
+b {
+    color: rgba(255,0,180,0.9);
+    font-size: 3vw;
+    line-height: 0;
+    position: relative;
+    top: 1.5vw;
+}
+
+#mc_embed_signup h3 {
+    line-height: 130%;
+}
+
+#button input {
+    color: darkorange;
+}
+#hiddenArrow {
+    color: mediumturquoise;
+}

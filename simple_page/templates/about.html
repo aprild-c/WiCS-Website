@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+
+{% block title %} About {% endblock %}
+{% block stylesheet %}<link href="../static/aboutStylesheet.css" rel="stylesheet" type="text/css">{% endblock %}
+{% block page_content %}
+<table>
+    <tr>
+        <td colspan="3" id="missionRow">
+            <h1>
+                <span id="typingEffect"></span><span id="typingSymbol">|</span>
+            </h1>
+            <h2>
+                <span class="symbol">&lt</span><span class="tag">h2</span><span class="symbol">&gt</span
+                    >Our mission is to provide an environment on Amherst's campus that encourages and supports
+                    women interested in technology and computer science.<span class="symbol">&lt/</span><span
+                    class="tag">h2</span><span class="symbol">&gt</span>
+            </h2>
+        </td>
+    </tr>
+    <tr>
+        <th class="header" id="problemHeader">
+            <a><h1>The Problem</h1></a>
+        </th>
+        <th class="header" id="WWDHeader">
+            <a><h1>What We Do</h1></a>
+        </th>
+        <th class="header" id="contactHeader">
+            <a><h1>Contact Us</h1></a>
+        </th>
+    </tr>
+    <tr>
+        <td colspan="3" id="supportingText">
+            <h2>
+                Computer science related fields have lacked in female diversity
+                <a href='https://www.theguardian.com/careers/2017/aug/10/how-the-tech-industry-wrote-women-out-of-history'>
+                    starting in the 1960s.</a> Currently, women
+                only make up 20% of computer science professionals globally, despite computer science careers having one
+                of the smallest gender wage gaps and their increasing flexibility in work hours.<br><br>
+                This lack of diversity is seen early on within colleges and universities. Computer science introductory
+                courses have a high number of female students, but the number drops significantly when we look at female
+                students who continue onto higher level courses. The low retention rate is due to many reasons: a lack
+                of tech female role models, a confidence gap between genders, and the geek-programmer stereotype.
+                <br><a id='moreInfo' href='https://www.techrepublic.com/article/the-state-of-women-in-computer-science-an-investigative-report/'>
+                Click for more information</a>
+            </h2>
+        </td>
+    </tr>
+</table>
+{% endblock %}
+{% block script %}
+    <script src="../static/aboutScript.js"></script>
+{% endblock %}

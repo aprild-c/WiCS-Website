@@ -1,0 +1,43 @@
+.topnav {
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 0 0.5vw 1.5vh -0.4vw rgba(0,0,0,0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.topnav a {
+    float: right;
+    color: #3f1f69;
+    text-align: center;
+    padding: 2vh 2vw 2vh 2vw;
+    text-decoration: none;
+}
+
+.topnav a p {
+    font-size: 2vh;
+    line-height: 34%;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+}
+
+.topnav a.logo {
+    color: white;
+    padding: 1vh 2vw 0vh 2vw;
+    float: left;
+}
+
+.topnav a.logo:hover {
+    background-color: white;
+}
+
+.topnav a.logo img {
+    height: 6.2vh;
+}
+
+
+

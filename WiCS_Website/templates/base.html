@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}{% endblock %}</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link href="../static/latoFont.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato" />
+    <link href="../static/navbarStylesheet.css" rel="stylesheet" type="text/css">
+    {% block stylesheet %}{% endblock %}
+</head>
+<body>
+    <div class="topnav">
+        <a class="logo" href="/"><img src="../static/WiCSLogo.png"></a>
+        <a href="/calendar"><p>Calendar</p></a>
+        <a href="/about"><p>About</p></a>
+    </div>
+    {% block page_content %} {% endblock %}
+    {% block script %}{% endblock %}
+</body>
+</html>

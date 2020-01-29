@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block title %} Events {% endblock %}
+{% block stylesheet %}
+<link href="../static/jquery-gcal-flow-3.0.2/jquery.gcal_flow.css" rel="stylesheet" type="text/css">
+{% endblock %}
+{% block page_content %}
+<div id="gcf-design">
+    <div class="gcf-header-block">
+        <div class="gcf-title-block">
+            <h1><span class="gcf-title"></span></h1>
+        </div>
+    </div>
+    <div class="gcf-item-container-block">
+        <div class="gcf-item-block">
+            <div class="gcf-item-header-block">
+                <div class="gcf-item-title-block">
+                    <h2><strong class="gcf-item-title"></strong></h2>
+                </div>
+                <div class="gcf-item-date-block">
+                    <h2 class="date"><span class="gcf-item-daterange"></span></h2>
+                    <h2 class="location"><div class="gcf-item-location"></div></h2>
+                </div>
+            </div>
+            <div class="gcf-item-body-block">
+                <h3>
+                    <div class="gcf-item-description">No description available</div></h3>
+            </div>
+        </div>
+    </div>
+    <div class="gcf-last-update-block">
+        LastUpdate: <span class="gcf-last-update"></span>
+    </div>
+</div>
+{% endblock %}
+{% block script %}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://apis.google.com/js/api.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="../static/jquery-gcal-flow-3.0.2/jquery.gcal_flow.min.js"></script>
+<script src="../static/calendarScript.js"></script>
+{% endblock %}

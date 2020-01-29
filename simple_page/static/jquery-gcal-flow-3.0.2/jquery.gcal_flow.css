@@ -1,0 +1,94 @@
+body {
+  background-image: url("../download_1.png");
+}
+.gCalFlow {
+  position: relative;
+  width: 50vw;
+  height: 70vh;
+  text-decoration: none;
+  padding: 3% 0;
+  margin-left: 25vw;
+}
+  .gCalFlow a, .gCalFlow a:visited, .gCalFlow a:hover {
+    color: rgb(255,0,180);
+    text-decoration: none; }
+  .gCalFlow a:hover {
+    text-decoration: underline; }
+  .gCalFlow .gcf-header-block {
+    margin-top: 5vh;
+    padding: 5px 4px; }
+  .gCalFlow .gcf-title-block h1{
+    text-align: center;
+    font-weight: bold;}
+    .gCalFlow .gcf-title-block a, .gCalFlow .gcf-title-block a:visited, .gCalFlow .gcf-title-block a:hover {
+      _color: white;
+      font-size: 3vw;
+      font-size: 100%;
+    }
+  .gCalFlow .gcf-last-update-block {
+    text-align: right;
+    bottom: 0;
+    right: 0;
+    padding-right: 4px;
+    position: relative;
+    font-size: 1vw;
+  }
+  .gCalFlow .gcf-item-container-block {
+    position: relative;
+    overflow: hidden;
+    overflow-y: auto;
+    height: 90%;
+  }
+  .gCalFlow .gcf-item-block {
+    position: relative;
+    overflow: hidden;
+    border-bottom: 3px dashed #ccc;
+    padding: 2px;
+    margin: 2px 0;
+  }
+  .gCalFlow .gcf-item-header-block {
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  .gCalFlow .date {
+    font-size: 90%;
+    line-height: 0;
+  }
+  .gCalFlow .location {
+    font-size: 70%;
+    line-height: 100%;
+    white-space: pre-wrap;
+  }
+  .gCalFlow .gcf-item-title-block h2 {
+    font-size: 120%;
+    line-height: 50%;
+    text-align: left;
+
+  }
+  .gCalFlow .gcf-item-body-block {
+    font-color: #999;
+    text-align: left;
+    border: lightgray solid 2px;
+    background-color: lightgray;
+  }
+  .gCalFlow .gcf-item-body-block h3 {
+    font-size: 70%;
+    line-height: 2vw;
+  }
+  .gCalFlow .gcf-item-description a {
+    position: relative;
+    top: 3px;
+    font-size: 2em;
+    font-weight: lighter;
+  }
+  .gCalFlow .gcf-item-description a:hover {
+    text-decoration: none;
+  }
+  .gCalFlow {
+    zoom: 1;
+  }
+  .gCalFlow .gcf-header-block {
+    zoom: 1;
+  }
+  .gCalFlow .gcf-item-body-block {
+    color: #333; }
