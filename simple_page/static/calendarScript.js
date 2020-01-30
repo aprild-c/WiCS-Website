@@ -10,7 +10,7 @@ $('#gcf-design').gCalFlow({
         e.minutes = ":" + e.getMinutes();
         let months = ["Jan. ", "Feb. ", "Mar. ", "Apr. ", "May ", "Jun. ", "July ", "Aug. ", "Sep. ", "Oct. ", "Nov. ", "Dec. "];
 
-        let dateString = months[s.getMonth() + 1] + s.getDate();
+        let dateString = months[s.getMonth()] + s.getDate();
         if (s.hours > 12) {
             s.ampm = "pm";
             s.hours -= 12;
@@ -30,7 +30,7 @@ $('#gcf-design').gCalFlow({
         if (s.getDate() === e.getDate()) {
             dateString += e.hours + e.minutes + e.ampm;
         } else {
-            dateString += months[e.getMonth() + 1] + e.getDate() + " @" + e.hours + e.minutes + e.ampm;
+            dateString += months[e.getMonth()] + e.getDate() + " @" + e.hours + e.minutes + e.ampm;
         }
         return dateString;
     }
