@@ -3,6 +3,9 @@ body {
     background-repeat: repeat-x;
     background-size: 65vw 140vh;
 }
+table{
+    padding-top: 7vh;
+}
 td {
     padding: 2.5% 8% 2.5% 8%;
 }
@@ -31,7 +34,7 @@ h2 a {
     border-width: 4px;
 }
 #missionRow {
-    padding: 7% 8%;
+    padding: 0% 8%;
 }
 #missionRow h1, #missionRow h2 {
     font-family: "Courier New";
