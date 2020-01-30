@@ -124,7 +124,7 @@
     function gCalFlow(target, opts) {
       this.target = target;
       target.addClass('gCalFlow');
-      if (target.children().size() > 0) {
+      if (target.children().length > 0) {
         log.debug("Target node has children, use target element as template.");
         this.template = target;
       }
@@ -309,7 +309,7 @@
       scroll_container = this.target.find('.gcf-item-container-block');
       scroll_children = scroll_container.find(".gcf-item-block");
       log.debug("scroll container:", scroll_container);
-      if (!this.opts.auto_scroll || scroll_container.size() < 1 || scroll_children.size() < 2) {
+      if (!this.opts.auto_scroll || scroll_container.length < 1 || scroll_children.length < 2) {
         return;
       }
       state = {
