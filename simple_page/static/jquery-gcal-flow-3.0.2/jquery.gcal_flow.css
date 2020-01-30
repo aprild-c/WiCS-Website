@@ -6,7 +6,7 @@ body {
   width: 50vw;
   height: 70vh;
   text-decoration: none;
-  padding: 3% 0;
+  padding: 15vh 0;
   margin-left: 25vw;
 }
   .gCalFlow a, .gCalFlow a:visited, .gCalFlow a:hover {
@@ -15,7 +15,7 @@ body {
   .gCalFlow a:hover {
     text-decoration: underline; }
   .gCalFlow .gcf-header-block {
-    margin-top: 5vh;
+    margin-top: 0;
     padding: 5px 4px; }
   .gCalFlow .gcf-title-block h1{
     text-align: center;
